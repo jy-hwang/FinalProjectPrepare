@@ -6,7 +6,9 @@ scott 계정으로 진행하시오
 
 
 /* 
-아래 부터는 hr계정으로 진행하시오
+
 2. 부서 테이블의 부서코드와 부서명을 검색하라
 */
-SELECT DEPARTMENT_ID ,DEPARTMENT_NAME  FROM DEPARTMENTS;
+SELECT DEPTNO 
+     , DNAME
+  FROM DEPT;
