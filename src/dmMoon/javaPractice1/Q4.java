@@ -7,9 +7,9 @@ public class Q4 {
 		for(int i=n; i<=m; i++) {
 			sum+=i;
 		}
+		System.out.printf("n부터 m까지의 합계:", n, m, sum);
 		return sum;
 	}
 	public static void main(String[] args) {
-		System.out.println("n부터 m까지의 합계:"+sumNtoM(0, 0));
 	}
 }
